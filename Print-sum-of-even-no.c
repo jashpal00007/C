@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int A,B;
+scanf("%d%d",&A,&B);
+
+int sum=0;
+    for(int i=A;i<=B;i++)
+    {
+        if(i%2==0)
+        {
+           sum =sum+i;
+        }
+    }
+     printf("%d\n",sum);
+}
